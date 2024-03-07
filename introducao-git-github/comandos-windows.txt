@@ -1,0 +1,82 @@
+                               # Git e GitHub
+## Windows
+
+### Configuração Inicial
+
+1. Configurar Nome de Usuário:
+   git config --global user.name "Seu Nome"
+
+2. Configurar Email:
+   git config --global user.email "seuemail@example.com"
+
+### Iniciar um Repositório
+
+1. Clonar um Repositório:
+   git clone https://github.com/nomeusuario/nomerepositorio.git
+
+2. Iniciar um Repositório Local:
+   git init
+
+### Gerenciando Alterações
+
+1. Adicionar Arquivos ao Stage:
+   git add nome-do-arquivo
+   git add .
+
+2. Commit de Alterações:
+   git commit -m "Mensagem do commit"
+
+### Ramificações (Branches)
+
+1. Criar uma Nova Branch:
+   git branch nome-da-branch
+
+2. Mudar para uma Branch:
+   git checkout nome-da-branch
+
+3. Criar e Mudar para uma Nova Branch (em um comando):
+   git checkout -b nome-da-branch
+
+4. Listar Todas as Branches:
+   git branch
+
+### Sincronização com Repositório Remoto
+
+1. Adicionar um Repositório Remoto:
+   git remote add origin https://github.com/nomeusuario/nomerepositorio.git
+
+2. Enviar Commits para o Repositório Remoto:
+   git push origin nome-da-branch
+
+3. Atualizar Repositório Local com Mudanças do Remoto:
+   git pull origin nome-da-branch
+
+4. Obter Informações do Repositório Remoto:
+   git remote -v
+
+### Outros Comandos Úteis
+
+- Remover Pasta e Arquivos
+  rm nome-do-arquivo
+
+- Listar Arquivos/Diretórios
+  ls
+
+- Mostrar Caminho Atual:
+  pwd
+
+- Entrar em Pasta:
+  cd nome-do-arquivo
+
+- Voltar um Nível da Pasta
+  cd ..
+
+- Criação de Pasta:
+  mkdir
+
+- Verificar Status do Repositório:
+  git status
+
+- Desfazer Alterações Locais em um Arquivo (antes de adicionar ao stage):
+  git checkout -- nome-do-arquivo
+

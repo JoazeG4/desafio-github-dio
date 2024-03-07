@@ -1,0 +1,59 @@
+                                # Git e GitHub
+
+## Comandos Básicos do Linux
+
+### Navegação de Diretórios
+
+1. Listar Arquivos e Diretórios:
+   ls
+
+2. Mudar de Diretório:
+   cd nomedapasta
+
+3. Diretório Atual:
+   pwd
+
+### Manipulação de Arquivos e Diretórios
+
+1. Criar um Novo Diretório:
+   mkdir nomedodiretorio
+
+2. Criar um Novo Arquivo:
+   touch nome-do-arquivo.txt
+
+3. Copiar um Arquivo:
+   cp origem.txt destino.txt
+
+4. Mover um Arquivo:
+   mv origem.txt destino/
+
+5. Renomear um Arquivo:
+   mv nome-atual.txt novo-nome.txt
+
+6. Remover um Arquivo:
+   rm nomedoarquivo
+
+7. Remover um Diretório:
+   rm -r nomedapasta
+
+### Visualização de Arquivos
+
+1. Exibir Conteúdo de um Arquivo:
+   cat nome-do-arquivo.txt
+
+2. Exibir Conteúdo de um Arquivo com Paginação:
+   less nome-do-arquivo.txt
+
+### Outros Comandos Úteis
+
+- Limpar a Tela do Terminal:
+  clear
+
+- Verificar Uso de Disco:
+  df -h
+
+- Verificar Uso de Memória:
+  free -h
+
+- Encerrar Sessão de Usuário:
+  exit
