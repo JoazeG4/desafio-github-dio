@@ -1,2 +1,2 @@
-# desafio-github-dio :smile:
-Criação do primeiro repositório no Git/GitHub - Projeto Dio.me
+# Desafio DIO - Meu Primeiro Repositório no Git/GitHub
+Este é o meu primeiro repositório no GitHub, criado para completar o desafio proposto pela [DIO](https://web.dio.me/home), com o objetivo de aprender e praticar como usar o Git e o GitHub. :smiley:
