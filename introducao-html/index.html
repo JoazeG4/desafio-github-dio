@@ -2,26 +2,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Meu Site</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <!--Cabeçalho-->
     <header>
+        <img src="imagens/homem.jpg" alt="Foto preto e branco de um homem" class="photo">
+
         <!--Título nível 1-->
-        <h1>Meu Site</h1>
+        <h1 id="title">Meu Nome</h1>
     </header>
+
     <!--Seção-->
     <section>
-        <h2>Post</h2>
+
+        <!--Título nível 2-->
+        <h2 class="subtitle">Post</h2>
         <header>
+
             <!--Artigo-->
-            <article>
+            <article class="post">
                 <header>
-                    <h3>Post #1</h3>
+
+                    <!--Título nível 3-->
+                    <h3 class="post_title">Post #1</h3>
+
+                    <!--Imagem-->
+                    <img src="imagens/fundo-html.jpg" alt="Editor contendo parte de um código HTML" class="post_image">
                 </header>
+                <p class="post_content">Lorem ipsum dolor sit amet <a href="#" target="_blank">link</a> consectetur adipisicing elit. Cumque, <a href="#">email</a> magni atque voluptatibus recusandae placeat explicabo architecto laboriosam porro optio veritatis, aspernatur unde laborum nostrum repellendus voluptatem quam sint fuga. Odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ipsa voluptatibus dolorem consequatur eum modi, soluta, eius quos tempora accusamus consectetur blanditiis voluptates quisquam ab error perspiciatis sint architecto aspernatur!</p>
             </article>
         </header>
     </section>
-    <!--Roda Pé-->
-    <footer></footer>  
+
+    <!--Rodapé-->
+    <footer>
+
+        <!--Lista Ordenada-->
+        <ul class="contact_list">
+            <li>
+                <a href="#" target="_blank">Meu Email</a>
+            </li>
+            <li>
+                <a href="#" target="_blank">Meu Linkedin</a>
+            </li>
+            <li>
+                <a href="https://github.com/JoazeG4" target="_blank">Meu GitHub</a>
+            </li>
+        </ul>
+
+        <!--Lista Não Ordenada-->
+        <ol type="1" start="2">
+            <li>
+                <a href="#">Meu Instagram</a>
+            </li>
+            <li>
+                <a href="#">Meu Facebook</a>
+            </li>
+        </ol>
+    </footer>  
 </body>
 </html>
